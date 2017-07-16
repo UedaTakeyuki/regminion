@@ -1,3 +1,4 @@
+# pip install piserialnumber
 serial_id=`python -m piserialnumber`
 minion_id=`cat /etc/salt/minion | grep -e "^id:" | cut -d' ' -f2`
 echo serial_id: $serial_id
